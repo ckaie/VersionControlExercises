@@ -5,20 +5,14 @@
 
 /// <summary>
 /// Simple 'HelloGit' program to demonstrate git branching and conflict
-/// resolution
+/// resolution. Prints welcome message.
 /// </summary>
-/// <param name="argc"></param>
-/// <param name="argv"></param>
+/// <param name="argc">Number of command line parameters</param>
+/// <param name="argv">Array of pointers to each command line parameter</param>
 /// <returns></returns>
 int main(int argc, char* argv[]) {
 
-	//std::string helloGit = "Hello Git!";
-	//std::cout << helloGit << std::endl;
-	//Test test;
-	//int x = test.DoSomething(helloGit);
-	//std::cout << "Length: " << x << std::endl;
-
 	Test test;
-	test.Welcome();
+	return test.Welcome();
 
 }
