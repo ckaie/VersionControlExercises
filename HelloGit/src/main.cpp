@@ -1,3 +1,5 @@
+#include "Test.h"
+
 #include <iostream>
 #include <string>
 
@@ -9,5 +11,11 @@
 /// <param name="argv"></param>
 /// <returns></returns>
 int main(int argc, char* argv[]) {
-	std::cout << "Hello Git!" << std::endl;
+	std::string helloGit = "Hello Git!";
+
+	std::cout << helloGit << std::endl;
+
+	Test test;
+	int x = test.DoSomething(helloGit);
+	std::cout << "Length: " << x << std::endl;
 }
