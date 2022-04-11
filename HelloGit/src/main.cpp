@@ -11,11 +11,14 @@
 /// <param name="argv"></param>
 /// <returns></returns>
 int main(int argc, char* argv[]) {
-	std::string helloGit = "Hello Git!";
 
-	std::cout << helloGit << std::endl;
+	//std::string helloGit = "Hello Git!";
+	//std::cout << helloGit << std::endl;
+	//Test test;
+	//int x = test.DoSomething(helloGit);
+	//std::cout << "Length: " << x << std::endl;
 
 	Test test;
-	int x = test.DoSomething(helloGit);
-	std::cout << "Length: " << x << std::endl;
+	test.Welcome();
+
 }
